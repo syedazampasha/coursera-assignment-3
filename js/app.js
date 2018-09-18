@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  angular.module('NarrowItDownApp', [])
+  angular.module('ngNarrowItDown', [])
     .controller('NarrowItDownController', NarrowItDownController)
     .service('MenuSearchService', MenuSearchService)
     .constant('ApiBasePath', "https://davids-restaurant.herokuapp.com")
